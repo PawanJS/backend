@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include ("partials/head") %>
+  <body>
+    <%- include ("partials/nav") %>
+    <div class="container">
+      <h1>Your random number is: <%= number %></h1>
+      <% if (number%2===0){ %>
+      <h2>That is a even number.</h2>
+      <% }else{ %>
+      <h2>That is a odd number.</h2>
+      <% } %>
+      <h3>Its a <%= number%2===0?"Even":"Odd" %> number.</h3>
+    </div>
+    <%- include ("partials/footer") %>
+  </body>
+</html>
