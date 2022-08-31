@@ -3,6 +3,7 @@
 # dependencies
 /Comments_Box/node_modules
 /Practice/node_modules
+/Mongoose/node_modules
 /.pnp
 .pnp.js
 
